@@ -1,0 +1,86 @@
+body
+{
+    font-family: 'Shadows Into Light', cursive;
+    background: rgb(21, 255, 0);
+    
+    font-weight: bold;
+}
+
+h2
+{
+    font-size: 80px;
+}
+.header_div
+{
+    background: rgb(12, 206, 206);
+    color: rgb(0, 0, 0);
+}
+
+.header_div img
+{
+    width: 100px
+}
+
+.main_div
+{
+    background: rgb(12, 206, 206);
+    padding: 10px;
+    margin-top: 15px;
+    border: 3px solid rgb(12, 206, 206);
+
+}
+
+.main_div label
+{
+    background: rgb(12, 206, 206);
+    width: 310px;
+    padding: 10px;
+    font-size: 40px;
+    margin-bottom: 0px;
+    box-shadow: 5px 5px 5px white;
+}
+
+#camera,#result
+{
+    border: 2px solid rgb(12, 206, 206);
+    width: 310px;
+    height: 300px;
+    box-shadow: 5px 5px 18px white;
+}
+
+.main_div button
+{
+    width: 310px;
+    font-size: 40px;
+    box-shadow: 5px 5px 18px white;
+    border: 1px solid;
+}
+
+.footer_div
+{
+    margin-bottom: 50px;
+}
+
+.footer_div h4
+{
+    background: white;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 5px 5px 18px white;
+}
+
+.footer_div img
+{
+    width: 70px;
+}
+
+.copy_right_footer
+{
+    position: fixed;
+    color: #6c757d;
+    bottom: 0px;
+    width: 100%;
+    background-color: white;
+    line-height: 3;
+    text-align: center;
+}
